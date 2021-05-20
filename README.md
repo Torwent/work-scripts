@@ -1,2 +1,2 @@
 # work-scripts
-Scripts useful for my job
+This repo is just so I can save some scripst I made to make my job slightly easier.
