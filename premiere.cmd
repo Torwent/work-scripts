@@ -26,7 +26,7 @@ setlocal ENABLEDELAYEDEXPANSION
 
 :: copy each mp4 file into the resources directory in the project folder
 for %%f in (*.mp4) do (
-    move %%f %fullDirectory%\resources\%dirName%!counter!.mp4
+    move "%%f" "%fullDirectory%\resources\%dirName%!counter!.mp4"
     set /a counter += 1
 )
 
